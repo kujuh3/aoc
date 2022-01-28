@@ -1,1 +1,1 @@
-<h2>Adventure of Code entries, year 2021</h2>
+<h2>Advent of Code entries, year 2021</h2>
