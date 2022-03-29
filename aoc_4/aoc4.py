@@ -35,7 +35,6 @@ def bingocheck(numbers1, boards):
     for index, i in enumerate(numbers1):
         #Inner and outer ranges for list slices and row coordinates as a list
         for outerindex, x in enumerate(boards):
-            print(x)  
             inner = 0
             outer = 5
             col = [0,5,10,15,20]
@@ -44,7 +43,6 @@ def bingocheck(numbers1, boards):
             while counter < 5:
                 checkrow = x[inner:outer]
                 checkcolumn = x[col[0]],x[col[1]],x[col[2]],x[col[3]],x[col[4]]
-                print(checkcolumn)
                 #If checks for column and row, get answer by calling function and return that value
                 if all(l=="X" for l in checkcolumn):
                     amount = 0
